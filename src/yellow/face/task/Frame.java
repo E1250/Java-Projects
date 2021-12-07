@@ -21,14 +21,20 @@ public class Frame extends JFrame {
         g.setColor(Color.YELLOW);
         g.fillOval(100, 110, 300, 350);
         g.setColor(Color.black);
+        g.drawOval(100, 110, 300, 350);
+        g.setColor(Color.black);
         g.fillOval(160, 160, 50,50);
         g.fillOval(290, 160, 50,50);
         
-//        g.fillOval(160, 160, 55,55);
-//        g.fillOval(290, 160, 55,55);
+//      g.fillOval(160, 160, 55,55);
+//      g.fillOval(290, 160, 55,55);
         g.setColor(Color.WHITE);
         g.fillOval(160, 160, 50,50);
         g.fillOval(290, 160, 50,50);
+        g.setColor(Color.black);
+        g.drawOval(160, 160, 50,50);
+        g.drawOval(290, 160, 50,50);
+        
         g.setColor(Color.black);
         g.fillOval(180, 170, 30,30);
         g.fillOval(310, 170, 30,30);
