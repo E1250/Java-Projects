@@ -33,6 +33,9 @@ public class Frame extends JFrame{
         
         g.setColor(Color.decode("#d4b66e"));
         g.fillRect(100, 150, 400, 300);
+        g.setColor(Color.BLACK);
+        g.drawRect(100, 150, 400, 300);
+
         
         g.setColor(Color.white);
         g.fillRect(120, 170, 70, 70);
@@ -67,7 +70,10 @@ public class Frame extends JFrame{
         
         g.setColor(Color.blue);
         g.fillRect(260, 350, 80, 100);
+        g.setColor(Color.black);
+        g.drawRect(260, 350, 80, 100);
 
+        
         g.setColor(Color.black);
         g.drawLine(100, 300, 600, 300);
     }
